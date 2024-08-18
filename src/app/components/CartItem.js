@@ -4,9 +4,9 @@ import { FaTrashAlt } from 'react-icons/fa';
 const CartItem = ({ item, updateQuantity, removeItem }) => {
   return (
     <div className="flex items-center justify-between p-4 border-b">
-      <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded-lg" />
+      <img src={item.image} alt={item.title} className="w-16 h-16 object-cover rounded-lg" />
       <div className="flex-1 ml-4">
-        <h2 className="text-lg font-bold">{item.name}</h2>
+        <h2 className="text-lg font-bold">{item.title}</h2>
         <p className="text-gray-700">${item.price}</p>
         <div className="flex items-center mt-2">
           <button onClick={() => updateQuantity(item, item.quantity - 1)}>-</button>
