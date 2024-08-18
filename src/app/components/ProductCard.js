@@ -23,7 +23,7 @@ const ProductCard = ({ product, addToCart }) => {
       </div>
       <h2 className="text-xl font-bold mb-2">{product.title}</h2>
       <p className="relative group">
-        <span>{product.description.substr(0, 100)}...</span>
+        <span>{product.description.substr(0, 60)}...</span>
         <span className="absolute bottom-full left-0 w-full bg-white p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
           {product.description}
         </span>
