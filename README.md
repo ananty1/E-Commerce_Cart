@@ -1,3 +1,22 @@
+# E-commerce by Anant
+
+This is an e-commerce application built with Next.js and Tailwind CSS. It features a product listing page, shopping cart functionality, and basic discount calculations.
+
+## Features
+
+- **Product Listing Page**: Displays a grid of products fetched from an API.
+- **Shopping Cart**: Allows users to add, remove, and adjust quantities of items in the cart.
+- **Discounts**: Applies a fixed discount on the cart total.
+- **Sticky Header**: A sticky header that remains visible at the top of the page with a cart icon.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
